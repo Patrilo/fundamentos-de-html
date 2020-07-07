@@ -1,20 +1,117 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Curso Básico HTML5</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="file.js"></script>
-  </head>
-  <body>
-<header>
-    <h1>Hola mundo</h1>
+<!DOCTYPE html>
+
+<html lang="om" >
+<head>
+  <meta charset="utf-8">
+  <title>Curso Básico HTML5</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="file.js"></script>
+</head>
+
+<body>
+  <header>
+    <h2>Hola mundo</h2>
     <nav>
-        <ul>
-            <li><a href="#">Menu item 1</a></li>
-            <li><a href="#">Menu item 2</a></li>
-            <li><a href="#">Menu item 3</a></li>
-        </ul>
+      <ul>
+        <li><a href="#">Menu item 1</a></li>
+        <li><a href="#">Menu item 2</a></li>
+        <li><a href="#">Menu item 3</a></li>
+      </ul>
     </nav>
-</header>
-  </body>
+  </header>
+  <main>
+    <section>
+      <h2>Mi noticia</h2>
+      <p>Minions <b>ipsum</b> tank yuuu! Wiiiii gelatooo pepete po kass hana dul sae tatata bala tu tatata bala tu jeje
+        uuuhhh. La bodaaa tank yuuu! La bodaaa daa. Bananaaaa me want bananaaa! Butt pepete butt uuuhhh underweaaar
+        underweaaar bee do bee do bee do jeje bappleees. Pepete baboiii pepete underweaaar. La bodaaa poulet tikka
+        masala jeje ti aamoo! Me want bananaaa! Para tú underweaaar bappleees underweaaar bee do bee do bee do. Baboiii
+        daa la bodaaa underweaaar po kass hana dul sae gelatooo uuuhhh. Baboiii belloo! Po kass tatata bala tu jiji
+        belloo! Poulet tikka masala underweaaar potatoooo aaaaaah. Jiji poopayee baboiii poulet tikka masala bappleees
+        pepete me want bananaaa! Wiiiii.</p>
+      <p>Underweaaar potatoooo me want bananaaa! Jeje para tú bappleees chasy bappleees tank yuuu! Para tú. Belloo! me
+        want bananaaa! Uuuhhh pepete butt para tú. Poopayee belloo! Aaaaaah bananaaaa butt bananaaaa bananaaaa belloo!
+        Baboiii aaaaaah. Jeje me want bananaaa! Chasy gelatooo pepete para tú tulaliloo hana dul sae gelatooo.
+        Underweaaar jiji potatoooo me want bananaaa! Po kass la bodaaa bappleees me want bananaaa! Jiji wiiiii.
+        Potatoooo baboiii wiiiii tatata bala tu aaaaaah bee do bee do bee do hahaha. Bananaaaa poulet tikka masala butt
+        pepete belloo! Bee do bee do bee do daa hahaha wiiiii wiiiii. Poopayee baboiii butt ti aamoo! Underweaaar
+        gelatooo tatata bala tu hahaha. Poopayee la bodaaa chasy bappleees belloo! Me want bananaaa! Poopayee jeje
+        potatoooo ti aamoo!</p>
+      <figure>
+        <img src="../fundamentos-de-html-/images/imgPublicity.png" alt=" publicity">
+      </figure>
+    </section>
+    <section>
+      <h1>Mi formulario</h1>
+      <form action="personalData">
+        <fieldset>
+          <legend>Datos personales</legend>
+          <div>
+            <label for="name">Nombre</label>
+            <input type="text" id="name">
+          </div>
+          <div>
+            <label for="surname">Apellidos</label>
+            <input type="text" id="surname">
+          </div>
+          <div>
+            <label for="telephone">Teléfono</label>
+            <input type="tel" id="telephone">
+          </div>
+          <div>
+            <input type="radio" id="dni" name="identityNumber" value="dni">
+            <label for="dni">DNI</label>
+            <input type="radio" id="nie" name="identityNumber" value="nie">
+            <label for="nie">NIE</label>
+          </div>
+          <div>
+            <label for="numberIdentity">Nº Documento</label>
+            <input type="number" id="numberIdentity">
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Otros datos</legend>
+          <div>
+            <label for="numberPerson">Número de hermanos/as</label>
+            <input type="number" id="numberPerson">
+          </div>
+          <div>
+            <p>Deportes favoritos</p>
+            <ol>
+              <li>
+                <label for="football">Fútbol</label>
+                <input type="checkbox" id="football" value="football">
+              </li>
+              <li>
+                <label for="basket">Baloncesto</label>
+                <input type="checkbox" id="basket" value="basket">
+              </li>
+              <li>
+                <label for="rugby">Rugby</label>
+                <input type="checkbox" id="rugby" value="rugby">
+              </li>
+              <li>
+                <label for="padel">Padel</label>
+                <input type="checkbox" id="padel" value="padel">
+              </li>
+              <li>
+                <label for="handball">Pelota vasca</label>
+                <input type="checkbox" id="handball" value="handball">
+              </li>
+            </ol>
+          </div>
+        </fieldset>
+        <div>
+          <button type="reset">
+            Reset Form
+          </button>
+          <button type="submit">
+            Enviar
+          </button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+
 </html>
