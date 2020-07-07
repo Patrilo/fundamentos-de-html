@@ -48,15 +48,16 @@
           <legend>Datos personales</legend>
           <div>
             <label for="name">Nombre</label>
-            <input type="text" id="name">
+            <input type="text" id="name" name="name">
           </div>
           <div>
             <label for="surname">Apellidos</label>
-            <input type="text" id="surname">
+            <input type="text" id="surname" name="surname">
           </div>
           <div>
-            <label for="telephone">Teléfono</label>
-            <input type="tel" id="telephone">
+            <label for="telephone">Teléfono
+              <input type="tel" id="telephone" name="telephone_number">
+            </label>
           </div>
           <div>
             <input type="radio" id="dni" name="identityNumber" value="dni">
@@ -66,37 +67,37 @@
           </div>
           <div>
             <label for="numberIdentity">Nº Documento</label>
-            <input type="number" id="numberIdentity">
+            <input type="number" id="numberIdentity" name="numberIdentity">
           </div>
         </fieldset>
         <fieldset>
           <legend>Otros datos</legend>
           <div>
             <label for="numberPerson">Número de hermanos/as</label>
-            <input type="number" id="numberPerson">
+            <input type="number" id="numberPerson" name="numberIdentity">
           </div>
           <div>
             <p>Deportes favoritos</p>
             <ol>
               <li>
                 <label for="football">Fútbol</label>
-                <input type="checkbox" id="football" value="football">
+                <input type="checkbox" id="football" value="football"  name="football">
               </li>
               <li>
                 <label for="basket">Baloncesto</label>
-                <input type="checkbox" id="basket" value="basket">
+                <input type="checkbox" id="basket" value="basket" name="basket">
               </li>
               <li>
                 <label for="rugby">Rugby</label>
-                <input type="checkbox" id="rugby" value="rugby">
+                <input type="checkbox" id="rugby" value="rugby" name="rugby">
               </li>
               <li>
                 <label for="padel">Padel</label>
-                <input type="checkbox" id="padel" value="padel">
+                <input type="checkbox" id="padel" value="padel" name="padel">
               </li>
               <li>
                 <label for="handball">Pelota vasca</label>
-                <input type="checkbox" id="handball" value="handball">
+                <input type="checkbox" id="handball" value="handball" name="basket">
               </li>
             </ol>
           </div>
